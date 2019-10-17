@@ -1,0 +1,19 @@
+int firstNonRepeatingElement(int a[], int n){
+  for(int i=0;i<=n/2;i++)
+  { 
+    int rep=0;
+  	int check=a[i];
+  		for(int j=i+1;j<n;j++)
+    	{
+    		if(check==a[j])
+            {
+    		rep++;
+    		break;
+    		}
+    	}
+    if(rep==0)
+    {
+    return check;
+    }
+  }
+}
