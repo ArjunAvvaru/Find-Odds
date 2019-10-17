@@ -60,6 +60,3 @@ main()
 	}
 	return(0);
 }
-
-Success7.cpp
-Displaying Succ
